@@ -3,16 +3,19 @@
 int main() {
     int a, b;
 
+    // Input two numbers
     printf("Enter first number: ");
     scanf("%d", &a);
     printf("Enter second number: ");
     scanf("%d", &b);
 
+    // Perform operations
     int sum = a + b;
     int difference = a - b;
     int product = a * b;
     int quotient = a / b; // Integer division
 
+    // Output results
     printf("Sum: %d\n", sum);
     printf("Difference: %d\n", difference);
     printf("Product: %d\n", product);
